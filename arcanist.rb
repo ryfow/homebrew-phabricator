@@ -3,11 +3,11 @@ require "formula"
 class Arcanist < Formula
   resource "libphutil" do
     url "https://github.com/facebook/libphutil.git"
-    sha1 ""
+    sha256 ""
   end
   homepage "https://github.com/facebook/arcanist"
   head "git://github.com/facebook/arcanist.git"
-  sha1 ""
+  sha256 ""
   version "1"
   def install
     system "cp", "-r", ".", prefix
